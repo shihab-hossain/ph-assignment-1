@@ -9,15 +9,14 @@ body {
   padding: 0px;
 }
 
-.share-p{
-      margin-bottom: 32px;
+.share-p {
+  margin-bottom: 32px;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   opacity: 0.7;
 }
-
 
 /* banner style */
 header {
@@ -62,52 +61,72 @@ background-size: cover; */
   line-height: 23px;
 }
 
-
 /* main style */
 
-main{
-    width: 1140px;
-height: 1393px;
-border: 5px solid;
-margin: 0 auto;
-margin-top: 74px;
+main {
+  width: 1140px;
+  height: 1393px;
+  border: 5px solid;
+  margin: 0 auto;
+  margin-top: 74px;
 }
-.main-content{
-    width: 946px;
-height: 1233px;
-border: 5px solid;
-margin: 0 auto;
+.main-content {
+  width: 946px;
+  height: 1233px;
+  border: 5px solid;
+  margin: 0 auto;
 }
-.main-text{
+.main-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main-text1 {
+  display: flex;
+  border: 5px solid;
+  margin-bottom: 80px;
+}
+.main-inner-text {
+  width: 477px;
+  height: 245px;
+  border: 5px solid;
+}
+.main-img {
+  border: 5px solid;
+  margin-left: 180px;
+}
+.main-btn {
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 32px;
+}
+.main-inner-text p {
+  margin-top: 30px;
+}
+
+/* main part-2 */
+
+.main-text2 {
+  display: flex;
+  border: 5px solid;
+  margin-bottom: 80px;
+}
+.main-img2 {
+  border: 5px solid;
+}
+.main-inner-text2 {
+  border: 5px solid;
+}
+.main-inner-text2 p {
+  margin-top: 30px;
+}
+.main-text3{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.main-text1{
-    display: flex;
-    border: 5px solid;
-}
-.main-inner-text{
-    width: 477px;
-height: 245px;
-border: 5px solid;
-}
-.main-img{
-    border: 5px solid;
-    margin-left: 180px;
-}
-.main-btn{
-    padding: 12px 20px 12px 20px;
-    box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-margin-top: 32px;
-}
-.main-inner-text p{
-    margin-top:30px ;
 }
