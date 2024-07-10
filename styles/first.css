@@ -65,15 +65,15 @@ background-size: cover; */
 
 main {
   width: 1140px;
-  height: 3200px;
-  border: 5px solid;
+  height: 3050px;
+  /* border: 5px solid; */
   margin: 0 auto;
   margin-top: 74px;
 }
 .main-content {
   width: 946px;
   height: 1233px;
-  border: 5px solid;
+  /* border: 5px solid; */
   margin: 0 auto;
 }
 .main-text {
@@ -84,16 +84,16 @@ main {
 }
 .main-text1 {
   display: flex;
-  border: 5px solid;
+  /* border: 5px solid; */
   margin-bottom: 80px;
 }
 .main-inner-text {
   width: 477px;
   height: 245px;
-  border: 5px solid;
+  /* border: 5px solid; */
 }
 .main-img {
-  border: 5px solid;
+  /* border: 5px solid; */
   margin-left: 180px;
 }
 .main-btn {
@@ -115,15 +115,15 @@ main {
 
 .main-text2 {
   display: flex;
-  border: 5px solid;
+  /* border: 5px solid; */
   margin-bottom: 80px;
 }
-.main-img2 {
+/* .main-img2 {
   border: 5px solid;
-}
-.main-inner-text2 {
+} */
+/* .main-inner-text2 {
   border: 5px solid;
-}
+} */
 .main-inner-text2 p {
   margin-top: 30px;
 }
@@ -139,7 +139,7 @@ margin-top: 200px;
     text-align: center;
     width: 852px;
 height: 113px;
-border: 5px solid;
+/* border: 5px solid; */
 margin-left: 130px;
 margin-top: 100px;
 margin-bottom: 80px;
@@ -155,14 +155,14 @@ margin-bottom: 80px;
 .card{
     width: 364px;
 height: 299px;
-border: 5px solid;
+/* border: 5px solid; */
 border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
 }
 .card-text{
     width: 284px;
 height: 299px;
-border: 5px solid;
+/* border: 5px solid; */
 margin: 0 auto;
 }
 .card h2{
@@ -176,14 +176,14 @@ letter-spacing: 0%;
 .card1{
         width: 364px;
 height: 299px;
-border: 5px solid;
+/* border: 5px solid; */
 border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
 }
 .card2{
         width: 364px;
 height: 299px;
-border: 5px solid;
+/* border: 5px solid; */
 border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
@@ -195,10 +195,12 @@ line-height: 19px;
 text-align: left;
 }
 
+/* support part */
 .support{
     width: 1140px;
 height: 313px;
-border: 5px solid;
+/* border: 5px solid; */
+padding-top: 10px;
 background-image:  url('../assets/handshake.jpg');
   background-position: center;
 background-repeat: no-repeat;
@@ -209,7 +211,7 @@ border-radius: 16px;
 .support-text{
     width: 730px;
 height: 104px;
-border: 5px solid;
+/* border: 5px solid; */
 margin: 0 auto;
 text-align: center;
 color: rgb(255, 255, 255);
@@ -247,4 +249,25 @@ background: rgb(255, 255, 255);
 font-size: 15px;
 font-weight: 600;
 line-height: 13px;
+
+}
+
+/* footer part */
+
+.footer-part{
+    width: 1140px;
+height: 36px;
+/* border: 5px solid; */
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+margin-top: 117px;
+padding-bottom: 10px;
+}
+.footer-part ul{
+    display: flex;
+    gap: 20px;
+}
+.footer-part ul li{
+    list-style: none;
 }
